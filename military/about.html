@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - SoumiTattva</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #283c46, #1d262f); /* Modern gradient background */
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure full viewport height */
+        }
+
+        .navbar {
+            background-color: rgba(28, 44, 58, 0.8); /* Semi-transparent navbar */
+            backdrop-filter: blur(5px);  /* Subtle blur effect */
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+        }
+
+        .hero-section {
+            flex-grow: 1; /* Allow hero section to take up available space */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px; /* Consistent padding */
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05); /* More subtle card background */
+            border-radius: 20px; /* More rounded corners */
+            backdrop-filter: blur(15px); /* Stronger blur */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+            padding: 40px; /* Increased padding */
+            max-width: 900px; /* Slightly larger max-width */
+            width: 95%; /* Responsive width */
+            color: white;
+        }
+
+        .card-title {
+            font-size: 2.0rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #d3d3d3;
+        }
+
+        .lead {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            color: #ced4da; /* Slightly lighter text color */
+        }
+
+        .btn-custom {
+            background: linear-gradient(135deg, #667eea, #764ba2); /* Modern gradient button */
+            border: none;
+            padding: 16px 30px;
+            font-size: 18px;
+            border-radius: 30px;
+            transition: 0.3s ease;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Button shadow */
+        }
+
+        .btn-custom:hover {
+            transform: translateY(-2px); /* Subtle lift on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Increased shadow on hover */
+        }
+
+        .col-md-6 {
+            padding: 20px;
+        }
+
+        .col-md-6:first-child {
+            border-right: 2px solid #fff; /* Add vertical line on the left column */
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                padding: 30px;
+            }
+
+            .card-title {
+                font-size: 2.2rem;
+            }
+
+            .lead {
+                font-size: 1.1rem;
+            }
+
+            .col-md-6:first-child {
+                border-right: none; /* Remove the border on smaller screens */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">SoumiTattva</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="card">
+            <div class="row g-0">
+                <div class="col-md-12">
+                    <div class="card-body">
+                        <h2 class="card-title">About SoumiTattva</h2><hr>
+                        <p class="lead">SoumiTattva is dedicated to supporting the mental well-being of law enforcement personnel, offering secure and anonymous psychological assessments. Our mission is to help individuals in high-stress professions maintain their mental health and seek assistance when needed.</p>
+                        <h3>Our Mission</h3>
+                        <hr>
+                        <p>We aim to provide a reliable and confidential platform for law enforcement officers to undergo psychological assessments, enabling them to better understand and manage their mental health. Through advanced technology and expert support, SoumiTattva ensures that law enforcement personnel receive the care they deserve in a secure and supportive environment.</p>
+
+                        <h3>Why SoumiTattva?</h3>
+                        <hr>
+                        <p>Law enforcement officers face unique challenges that often affect their mental health, and they require specialized support. SoumiTattva strives to bridge this gap, offering a tailored platform to address their needs, providing peace of mind while protecting privacy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

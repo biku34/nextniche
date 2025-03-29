@@ -1,0 +1,308 @@
+Received POST Data:
+Array
+(
+    [user_id] => 6
+    [q1] => N (Never)
+    [q2] => N (Never)
+    [q3] => N (Never)
+    [q4] => N (Never)
+    [q5] => N (Never)
+    [q6] => N (Never)
+    [q7] => N (Never)
+    [q8] => N (Never)
+    [q9] => N (Never)
+    [q10] => N (Never)
+    [q11] => N (Never)
+    [q12] => N (Never)
+    [q13] => N (Never)
+    [q14] => N (Never)
+    [q15] => N (Never)
+    [q16] => N (Never)
+    [q17] => N (Never)
+    [q18] => N (Never)
+    [q19] => N (Never)
+    [q20] => N (Never)
+)
+
+Parsed Answers:
+Array
+(
+    [0] => N
+    [1] => N
+    [2] => N
+    [3] => N
+    [4] => N
+    [5] => N
+    [6] => N
+    [7] => N
+    [8] => N
+    [9] => N
+    [10] => N
+    [11] => N
+    [12] => N
+    [13] => N
+    [14] => N
+    [15] => N
+    [16] => N
+    [17] => N
+    [18] => N
+    [19] => N
+)
+Received POST Data:
+Array
+(
+    [user_id] => 6
+    [q1] => N (Never)
+    [q2] => N (Never)
+    [q3] => N (Never)
+    [q4] => N (Never)
+    [q5] => N (Never)
+    [q6] => N (Never)
+    [q7] => N (Never)
+    [q8] => N (Never)
+    [q9] => N (Never)
+    [q10] => N (Never)
+    [q11] => N (Never)
+    [q12] => N (Never)
+    [q13] => N (Never)
+    [q14] => N (Never)
+    [q15] => N (Never)
+    [q16] => N (Never)
+    [q17] => N (Never)
+    [q18] => N (Never)
+    [q19] => N (Never)
+    [q20] => N (Never)
+)
+
+Parsed Answers:
+Array
+(
+    [0] => N
+    [1] => N
+    [2] => N
+    [3] => N
+    [4] => N
+    [5] => N
+    [6] => N
+    [7] => N
+    [8] => N
+    [9] => N
+    [10] => N
+    [11] => N
+    [12] => N
+    [13] => N
+    [14] => N
+    [15] => N
+    [16] => N
+    [17] => N
+    [18] => N
+    [19] => N
+)
+Received POST Data:
+Array
+(
+    [user_id] => 6
+    [q1] => N (Never)
+    [q2] => N (Never)
+    [q3] => N (Never)
+    [q4] => N (Never)
+    [q5] => N (Never)
+    [q6] => N (Never)
+    [q7] => N (Never)
+    [q8] => N (Never)
+    [q9] => N (Never)
+    [q10] => N (Never)
+    [q11] => N (Never)
+    [q12] => N (Never)
+    [q13] => N (Never)
+    [q14] => N (Never)
+    [q15] => N (Never)
+    [q16] => N (Never)
+    [q17] => N (Never)
+    [q18] => N (Never)
+    [q19] => N (Never)
+    [q20] => N (Never)
+)
+
+Parsed Answers:
+Array
+(
+    [0] => N
+    [1] => N
+    [2] => N
+    [3] => N
+    [4] => N
+    [5] => N
+    [6] => N
+    [7] => N
+    [8] => N
+    [9] => N
+    [10] => N
+    [11] => N
+    [12] => N
+    [13] => N
+    [14] => N
+    [15] => N
+    [16] => N
+    [17] => N
+    [18] => N
+    [19] => N
+)
+Received POST Data:
+Array
+(
+    [user_id] => 6
+    [q1] => N (Never)
+    [q2] => N (Never)
+    [q3] => N (Never)
+    [q4] => N (Never)
+    [q5] => N (Never)
+    [q6] => N (Never)
+    [q7] => N (Never)
+    [q8] => N (Never)
+    [q9] => N (Never)
+    [q10] => N (Never)
+    [q11] => N (Never)
+    [q12] => N (Never)
+    [q13] => N (Never)
+    [q14] => N (Never)
+    [q15] => N (Never)
+    [q16] => N (Never)
+    [q17] => N (Never)
+    [q18] => N (Never)
+    [q19] => N (Never)
+    [q20] => N (Never)
+)
+
+Parsed Answers:
+Array
+(
+    [0] => N
+    [1] => N
+    [2] => N
+    [3] => N
+    [4] => N
+    [5] => N
+    [6] => N
+    [7] => N
+    [8] => N
+    [9] => N
+    [10] => N
+    [11] => N
+    [12] => N
+    [13] => N
+    [14] => N
+    [15] => N
+    [16] => N
+    [17] => N
+    [18] => N
+    [19] => N
+)
+
+Executing SQL Query with Parameters:
+6, N, N, N, N, N, N, N, N, N, N, N, N, N, N, N, N, N, N, N, N
+Test Submitted Successfully!
+Received POST Data:
+Array
+(
+    [user_id] => 6
+    [q1] => N (Never)
+    [q2] => N (Never)
+    [q3] => N (Never)
+    [q4] => N (Never)
+    [q5] => N (Never)
+    [q6] => N (Never)
+    [q7] => N (Never)
+    [q8] => N (Never)
+    [q9] => N (Never)
+    [q10] => N (Never)
+    [q11] => N (Never)
+    [q12] => N (Never)
+    [q13] => N (Never)
+    [q14] => N (Never)
+    [q15] => N (Never)
+    [q16] => N (Never)
+    [q17] => N (Never)
+    [q18] => N (Never)
+    [q19] => N (Never)
+    [q20] => N (Never)
+)
+
+Parsed Answers:
+Array
+(
+    [0] => N
+    [1] => N
+    [2] => N
+    [3] => N
+    [4] => N
+    [5] => N
+    [6] => N
+    [7] => N
+    [8] => N
+    [9] => N
+    [10] => N
+    [11] => N
+    [12] => N
+    [13] => N
+    [14] => N
+    [15] => N
+    [16] => N
+    [17] => N
+    [18] => N
+    [19] => N
+)
+
+Test Already Attempted!
+Received POST Data:
+Array
+(
+    [user_id] => 6
+    [q1] => N (Never)
+    [q2] => N (Never)
+    [q3] => N (Never)
+    [q4] => N (Never)
+    [q5] => N (Never)
+    [q6] => N (Never)
+    [q7] => N (Never)
+    [q8] => N (Never)
+    [q9] => N (Never)
+    [q10] => N (Never)
+    [q11] => N (Never)
+    [q12] => N (Never)
+    [q13] => N (Never)
+    [q14] => N (Never)
+    [q15] => N (Never)
+    [q16] => N (Never)
+    [q17] => N (Never)
+    [q18] => N (Never)
+    [q19] => N (Never)
+    [q20] => N (Never)
+)
+
+Parsed Answers:
+Array
+(
+    [0] => N
+    [1] => N
+    [2] => N
+    [3] => N
+    [4] => N
+    [5] => N
+    [6] => N
+    [7] => N
+    [8] => N
+    [9] => N
+    [10] => N
+    [11] => N
+    [12] => N
+    [13] => N
+    [14] => N
+    [15] => N
+    [16] => N
+    [17] => N
+    [18] => N
+    [19] => N
+)
+
+Test Already Attempted!
