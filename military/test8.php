@@ -65,7 +65,7 @@
     </nav>
     <div class="container">
         <div class="card">
-            <h2 class="text-center">IMPACT OF EVENTS SCALE-Revised (IES-R)</h2>
+            <h2 class="text-center">Emotional Balance Test</h2>
             <h5 class="text-center">0 = Not at all , 1 = A little bit , 2 = Moderately , 3 = Quite a bit , 4 = Extremely <br><br>
         <p>DURING THE PAST SEVEN DAYS How much have you been
 distressed or bothered by these difficulties? </p></h5>
