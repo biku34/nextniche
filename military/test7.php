@@ -65,7 +65,7 @@
     </nav>
     <div class="container">
         <div class="card">
-            <h2 class="text-center">PTSD Checklist for DSM-5 (PCL-5)</h2>
+            <h2 class="text-center">Life Experiences & Resilience Quiz</h2>
             <h5 class="text-center">0 = Not at all , 1 = A little bit , 2 = Moderately , 3 = Quite a bit , 4 = Extremely <br><br>
         <p>In the past month, how much were you bothered by:</p></h5>
             <hr>
