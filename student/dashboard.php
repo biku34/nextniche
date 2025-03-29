@@ -109,6 +109,7 @@ $conn->close();
         <hr>
         <a href="profile.php">Profile</a>
         <a href="logout.php">Logout</a>
+        <a href="http://localhost:8501/">Study Planner</a>
     </div>
 
     <div class="main-content">
