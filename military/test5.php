@@ -65,7 +65,7 @@
     </nav>
     <div class="container">
         <div class="card">
-            <h2 class="text-center">GAD-7 Anxiety</h2>
+            <h2 class="text-center">Life Balance & Mindset Evaluation</h2>
             <h5 class="text-center">0 = Not at all, 1 = Several days, 2 = More than half the days, 3 = Nearly every day</h5>
             <hr>
             <form id="lonelinessTest" action="save_test5.php" method="POST">
