@@ -12,7 +12,7 @@ from io import BytesIO
 # DEFAULT API SETTINGS
 # -------------------
 
-API_KEY = "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"  # Replace with a secure method to store API keys
+API_KEY = "{api}"  # Replace with a secure method to store API keys
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # -------------------
