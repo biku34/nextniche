@@ -65,7 +65,7 @@
     </nav>
     <div class="container">
         <div class="card">
-            <h2 class="text-center">Brief-COPE</h2>
+            <h2 class="text-center">Daily Challenges & Response Reflection </h2>
             <h5 class="text-center">1 = I haven't been
             doing this at all , 2 = A little bit , 3 = A medium amount , 4 = I’ve been doing
             this a lot  <br><br> 
