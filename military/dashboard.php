@@ -26,10 +26,10 @@ $conn->close();
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body { background: linear-gradient(to bottom right, #283c46, #1d262f); color: white; font-family: 'Poppins', sans-serif; }
-        .sidebar { width: 250px; background: rgba(28, 44, 58, 0.8); height: 100vh; padding: 20px; position: fixed; }
+        .sidebar { width: 250px; background: rgba(28, 44, 58, 0.8); height: 100vh; padding: 20px; position: fixed; color: white; }
         .sidebar a { color: white; text-decoration: none; padding: 15px; display: block; margin-bottom: 10px; border-radius: 10px; }
         .sidebar a:hover { background: rgba(255, 255, 255, 0.1); }
-        .main-content { margin-left: 270px; padding: 40px; }
+        .main-content { margin-left: 270px; padding: 40px; color:white; }
         .test-card { background: rgba(255, 255, 255, 0.08); border-radius: 20px; padding: 30px; text-align: center; cursor: pointer; }
         .test-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); }
         a {
