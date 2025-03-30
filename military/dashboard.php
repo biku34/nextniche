@@ -171,7 +171,16 @@ $conn->close();
                 </a>
             </div>
         </div>
-        
+        <!-- Start of  Engage Bot code -->
+    <!--(optional) You can pass visitor's name, email and phone as window object window.name, window.email and window.phone -->
+    <script type='module'>
+    window.botId =  '83ad539b-499b-461a-b48b-72c34cf45dc7';
+    window.baseUrl = 'https://app.engagebot.works';
+    window.isOpenChat = false;
+    import engage from 'https://app.engagebot.works/api/file/plugin.js';
+    engage();
+  </script>
+    <!-- End of Engage Bot code -->
         
     </div>
     
