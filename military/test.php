@@ -65,7 +65,7 @@
     </nav>
     <div class="container">
         <div class="card">
-            <h2 class="text-center">UCLA Loneliness Scale</h2>
+            <h2 class="text-center">Mind & Relationship Check</h2>
             <hr>
             <form id="lonelinessTest" action="save_test.php" method="POST">
                 <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id']; ?>">
