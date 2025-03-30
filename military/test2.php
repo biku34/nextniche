@@ -65,7 +65,8 @@
     </nav>
     <div class="container">
         <div class="card">
-            <h2 class="text-center">DASS21</h2>
+            <h2 class="text-center"> Inner Stability & Coping Skills Evaluation
+</h2>
             <h5 class="text-center">0 = Never, 1 = Sometimes, 2 = Fairly Often, 3 = Very Often</h5>
             <hr>
             <form id="lonelinessTest" action="save_test2.php" method="POST">
