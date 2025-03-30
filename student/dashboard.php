@@ -143,7 +143,16 @@ $conn->close();
         <div class="col-md-6 mb-4"><a href="test8.php" style="color: inherit; text-decoration: none;"><div class="test-card"><h3>Emotional Balance Test</h3></div></a></div>
         <div class="col-md-6 mb-4"><a href="test7.php" style="color: inherit; text-decoration: none;"><div class="test-card"><h3>Life Experiences & Resilience Quiz</h3></div></a></div>
         </div>
-
+        <!-- Start of  Engage Bot code -->
+    <!--(optional) You can pass visitor's name, email and phone as window object window.name, window.email and window.phone -->
+    <script type='module'>
+    window.botId =  '83ad539b-499b-461a-b48b-72c34cf45dc7';
+    window.baseUrl = 'https://app.engagebot.works';
+    window.isOpenChat = false;
+    import engage from 'https://app.engagebot.works/api/file/plugin.js';
+    engage();
+  </script>
+    <!-- End of Engage Bot code -->
             
         </div>
     </div>
