@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - SoumiTattva</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #283c46, #1d262f);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+       
+
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background-color: rgba(28, 44, 58, 0.9);
+            padding: 20px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .content {
+            margin-left: 270px;
+            padding: 40px;
+            flex-grow: 1;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #1d262f;
+            color: #ced4da;
+            text-align: center;
+            padding: 10px;
+        }
+        h4,p{
+            color: white;
+        }
+        .card a {
+            text-decoration: none; /* Remove underline */
+            color: white; /* Ensure the text color remains white */
+        }
+    </style>
+</head>
+
+<body>
+   
+
+    <div class="sidebar">
+        <h3>SoumiTattva</h3>
+        <hr>
+        <p>"A nation’s culture resides in the hearts and in the soul of its people."<br>-Mahatma Gandhi</p>
+        <hr>
+        <a href="users.php">Manage Users</a>
+        <a href="score.php">Assessments</a>
+        <a href="results.php">Reports</a>
+        <a href="plot.php">Statistics</a>
+        <a href="flag.php">Flagged Users</a>
+        <a href="reaction.php">Emotion Analysis</a>
+        <a href="logout.php" onclick="logout()" class="btn btn-danger">Logout</a>
+        
+    </div>
+
+    <div class="content">
+        <h2>Welcome, Admin</h2>
+        <p>Manage users, assessments, and system settings from here.</p>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                <a href="users.php"><h4>Users</h4></a>
+                    <p>Manage registered users</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <a href="score.php"><h4>AI (Suicide & Anxiety) Assessment</h4></a>
+                    <p>View and manage people with suicidal tendencies</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <a href="results.php"><h4>Reports</h4></a>
+                    <p>Generate detailed reports</p>
+                </div>
+            </div><p></p>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <a href="plot.php"><h4>Test Participation Statistics</h4></a>
+                    <p>Participation Visualization</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <a href="flag.php"><h4>Flagged Users</h4></a>
+                    <p>Users requiring further action</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <a href="reaction.php"><h4>AI based Emotion Analysis</h4></a>
+                    <p>Get detailed emotional analysis</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 SoumiTattva Admin Panel. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        fetch("check_login.php")
+            .then(response => response.json())
+            .then(data => {
+                if (data.status !== "logged_in") {
+                    window.location.href = "index.html"; // Redirect if not logged in
+                }
+            })
+            .catch(error => console.error("Error checking login:", error));
+    </script>
+</body>
+
+</html>
