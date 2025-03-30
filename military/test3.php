@@ -65,7 +65,7 @@
     </nav>
     <div class="container">
         <div class="card">
-            <h2 class="text-center">WHO-5 Well-Being Index </h2>
+            <h2 class="text-center">Happiness & Perspective Evaluation </h2>
             <h5 class="text-center">All of the time (5),<br>
     Most of the time (4),<br>
     More than half the time (3),<br>
