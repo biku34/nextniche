@@ -65,7 +65,7 @@
     </nav>
     <div class="container">
         <div class="card">
-            <h2 class="text-center">Perceived Stress Scale</h2>
+            <h2 class="text-center">Lifestyle & Thought Patterns Survey</h2>
             <h5 class="text-center">0 = Never, 1 = Almost Never, 2 = Sometimes, 3 = Fairly Often, 4 = Very Often</h5>
             <hr>
             <form id="lonelinessTest" action="save_test1.php" method="POST">
